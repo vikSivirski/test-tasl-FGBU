@@ -38,7 +38,7 @@ npm run test
 
 ## Демо
 
-- Будет добавлено после деплоя: [Demo URL](https://your-demo-link.example.com)
+- Vercel: [Demo URL](https://test-tasl-fgbu.vercel.app/)
 
 ## Архитектурный подход
 
