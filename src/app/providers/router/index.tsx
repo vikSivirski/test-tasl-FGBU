@@ -7,7 +7,11 @@ import { routes } from '../../../shared/config/routes'
 const router = createBrowserRouter([
   {
     path: routes.root,
-    element: <Navigate to={routes.posts} replace />,
+    element: <Navigate to={routes.page} replace />,
+  },
+  {
+    path: routes.page,
+    element: <PostsListPage />,
   },
   {
     path: routes.posts,
